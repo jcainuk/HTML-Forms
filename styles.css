@@ -1,5 +1,6 @@
 body {
   background-color: rgb(31, 30, 30);
+  font-family: "Roboto", sans-serif;
 }
 
 form {
@@ -15,8 +16,10 @@ input {
   display: block;
   margin-bottom: 1rem;
   box-sizing: border-box;
+  font: inherit;
 }
 
 button {
   display: block;
+  font: inherit;
 }
