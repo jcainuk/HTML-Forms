@@ -43,3 +43,8 @@ button {
   border-radius: 4px;
   cursor: pointer;
 }
+
+button:hover {
+  background-color: rgb(52, 14, 95);
+  border-color: rgb(52, 14, 95);
+}
