@@ -11,12 +11,20 @@ form {
   border-radius: 6px;
 }
 
+label {
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
 input {
   width: 100%;
   display: block;
   margin-bottom: 1rem;
   box-sizing: border-box;
   font: inherit;
+  border: 1px solid rgb(184, 184, 184x);
+  padding: 0.25rem;
+  color: rgb(61, 58, 58);
 }
 
 button {
