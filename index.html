@@ -27,7 +27,7 @@
             </li>
             <li>
               <label for="useremail">Your email address</label>
-              <input type="email" name="user-email" id="useremail" />
+              <input type="email" name="user-email" id="useremail" required />
             </li>
             <li>
               <label for="userpassword">Your password</label>
@@ -47,11 +47,26 @@
           <ul>
             <li>
               <label for="userage">Your age</label>
-              <input type="number" step="1" id="userage" name="user-age" />
+              <input
+                type="number"
+                step="1"
+                id="userage"
+                name="user-age"
+                required
+                min="18"
+                max="100"
+              />
             </li>
             <li>
               <label for="birthdate">Your birthdate</label>
-              <input type="date" id="birthdate" name="user-birthdate" />
+              <input
+                type="date"
+                id="birthdate"
+                name="user-birthdate"
+                required
+                min="1921-01-01"
+                max="2003-01-01"
+              />
             </li>
             <li>
               <label for="favourite-colour">Your favourite colour?</label>
@@ -80,6 +95,7 @@
                 id="verify-text-message"
                 name="verify"
                 value="text-message"
+                required
               />
               <label for="verify-text-message">Via text message (SMS)</label>
             </li>
@@ -90,6 +106,7 @@
                 id="verify-phone"
                 name="verify"
                 value="phone"
+                required
               />
               <label for="verify-phone">Via phone call</label>
             </li>
@@ -100,6 +117,7 @@
                 id="verify-email"
                 name="verify"
                 value="email"
+                required
               />
               <label for="verify-email">Via an email</label>
             </li>
